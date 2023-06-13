@@ -1,5 +1,5 @@
 body {
-    background-color: #DEF4C6;
+    background-color: #73E2A7;
 }
 * {
     font-family: 'Times New Roman', Times, serif;
@@ -8,30 +8,36 @@ body {
     margin-top: 80px;
     justify-content: center;
     display: flex;
+    border-radius: 5px 5px;
 }
 .left {
     width: 500px;
     height: 600px;
     background-color: #1C7C54;
+    border-radius: 5px 0px 0px 5px;
 
 }
 .right {
     width: 50%;
     height: 600px;
-    background-color: #73E2A7;
+    background-color: #DEF4C6;
+    border-radius: 0px 5px 5px 0px;
 }
 video {
     margin-top: 5px;
-    width: 500px; 
+    width: 450px; 
+    position: relative;
+    left: 25px;
+    transition: translate(50px);
 }
 p {
-    color: #DEF4C6;
+    color: #fff;
     text-align: center;
     font-size: 1.2em;
 }
 .watch {
     text-align: center;
-    color: #DEF4C6;
+    color: #fff;
 }
 .form-group-1 {
     display: flex;
@@ -41,7 +47,7 @@ p {
     text-align: center;
     margin-top: 100px;
     font-weight: bold;
-    color: #DEF4C6;
+    color: #1C7C54;
     font-size: 1.8em;
     text-decoration: underline;
 }
@@ -104,7 +110,7 @@ input[type="radio"] {
     width: 15px !important;
 }
 sup {
-    color: #DEF4C6;
+    color: #1C7C54;
     font-size: 1.4em;
 }
 #list {
@@ -126,7 +132,7 @@ a {
     margin-top: 80px;
     height: 400px;
     width: 350px;
-    background-color: #73E2A7;
+    background-color: #DEF4C6;
     border-radius: 10px 10px;
     position: relative;
     left : 100px;
@@ -159,6 +165,14 @@ a {
     border: 2px solid #1C7C54;
 }
 .sign_deco {
-    margin-right: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
     color: #1C7C54;   
+}
+audio {
+    position: relative;
+    left: 100px;
+}
+.make_color {
+    color: #000;
 }
