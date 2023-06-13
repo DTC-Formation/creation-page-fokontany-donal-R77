@@ -121,11 +121,17 @@ sup {
   
 }
 .move_it_left {
-    margin-right: 160px;
+    margin-right: 130px;
 }
 
 a {
     text-decoration: none;
+}
+.move_it_left_too {
+    
+}
+.label_male , .label_female {
+    color: #1d1c1c;
 }
 /*----login style-----*/
 .card {
@@ -175,4 +181,7 @@ audio {
 }
 .make_color {
     color: #000;
+}
+.sex {
+    text-align: left;
 }
